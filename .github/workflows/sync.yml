@@ -16,7 +16,7 @@ jobs:
       - name: Checkout source repository
         uses: actions/checkout@v4
         with:
-          repository: tangem/blockhain-sdk-swift
+          repository: tangem/blockchain-sdk-swift
           ref: develop
           token: ${{ secrets.SOURCE_REPO_TOKEN }}  
           path: source
@@ -24,7 +24,7 @@ jobs:
       - name: Checkout target repository
         uses: actions/checkout@v4
         with:
-          repository: tangem-public/blockhain-sdk-swift
+          repository: tangem-public/blockchain-sdk-swift
           ref: main
           token: ${{ secrets.SOURCE_REPO_TOKEN }} 
           path: target
