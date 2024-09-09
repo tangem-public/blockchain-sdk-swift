@@ -1,0 +1,105 @@
+PODS:
+  - Alamofire (5.9.1)
+  - AnyCodable-FlightSchool (0.6.7)
+  - BinanceChain (1.0.1-beta):
+    - BinanceChain/Core (= 1.0.1-beta)
+  - BinanceChain/Core (1.0.1-beta):
+    - Alamofire
+    - BinanceChain/Libraries
+    - BinanceChain/Protobuf
+    - BinanceChain/Util
+    - SwiftDate
+    - SwiftyJSON
+  - BinanceChain/Libraries (1.0.1-beta)
+  - BinanceChain/Protobuf (1.0.1-beta)
+  - BinanceChain/Util (1.0.1-beta)
+  - BitcoinCore.swift (0.15.4)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - Sodium (0.9.1)
+  - Solana.Swift (1.1):
+    - Starscream (= 4.0.8)
+  - Starscream (4.0.8)
+  - stellar-ios-mac-sdk (2.5.4)
+  - SwiftCBOR (0.4.5)
+  - SwiftDate (7.0.0)
+  - SwiftyJSON (5.0.1)
+  - TangemSdk (3.8.0)
+
+DEPENDENCIES:
+  - AnyCodable-FlightSchool (= 0.6.7)
+  - BinanceChain (from `https://github.com/tangem/swiftbinancechain.git`, tag `0.0.11`)
+  - BitcoinCore.swift (from `https://github.com/tangem/bitcoincore.git`, tag `0.0.20`)
+  - Moya (= 15.0.0)
+  - Sodium (= 0.9.1)
+  - Solana.Swift (from `https://github.com/tangem/Solana.Swift`, tag `1.2.0-tangem11`)
+  - stellar-ios-mac-sdk (= 2.5.4)
+  - SwiftCBOR (= 0.4.5)
+  - SwiftyJSON (from `https://github.com/tangem/SwiftyJSON.git`, tag `5.0.1-tangem1`)
+  - TangemSdk (from `https://github.com/Tangem/tangem-sdk-ios.git`, tag `develop-264`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AnyCodable-FlightSchool
+    - Moya
+    - Sodium
+    - Starscream
+    - stellar-ios-mac-sdk
+    - SwiftCBOR
+    - SwiftDate
+
+EXTERNAL SOURCES:
+  BinanceChain:
+    :git: https://github.com/tangem/swiftbinancechain.git
+    :tag: 0.0.11
+  BitcoinCore.swift:
+    :git: https://github.com/tangem/bitcoincore.git
+    :tag: 0.0.20
+  Solana.Swift:
+    :git: https://github.com/tangem/Solana.Swift
+    :tag: 1.2.0-tangem11
+  SwiftyJSON:
+    :git: https://github.com/tangem/SwiftyJSON.git
+    :tag: 5.0.1-tangem1
+  TangemSdk:
+    :git: https://github.com/Tangem/tangem-sdk-ios.git
+    :tag: develop-264
+
+CHECKOUT OPTIONS:
+  BinanceChain:
+    :git: https://github.com/tangem/swiftbinancechain.git
+    :tag: 0.0.11
+  BitcoinCore.swift:
+    :git: https://github.com/tangem/bitcoincore.git
+    :tag: 0.0.20
+  Solana.Swift:
+    :git: https://github.com/tangem/Solana.Swift
+    :tag: 1.2.0-tangem11
+  SwiftyJSON:
+    :git: https://github.com/tangem/SwiftyJSON.git
+    :tag: 5.0.1-tangem1
+  TangemSdk:
+    :git: https://github.com/Tangem/tangem-sdk-ios.git
+    :tag: develop-264
+
+SPEC CHECKSUMS:
+  Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
+  AnyCodable-FlightSchool: 261cbe76757802b17d471b9059b21e6fa5edf57b
+  BinanceChain: f727abc7a20ba71f4497e46b7400124027b25692
+  BitcoinCore.swift: 64ac4e69d9a6ef917bcbb0c23f1324cf57a822fb
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  Sodium: 23d11554ecd556196d313cf6130d406dfe7ac6da
+  Solana.Swift: b926815c93f483628ce51d9a51c96567ae14709e
+  Starscream: 19b5533ddb925208db698f0ac508a100b884a1b9
+  stellar-ios-mac-sdk: 01055b326a62d1e9bb50999eadeb85c9dec60658
+  SwiftCBOR: ac340b74d3b2cf1f8884bb748bd09875848e3873
+  SwiftDate: bbc26e26fc8c0c33fbee8c140c5e8a68293a148a
+  SwiftyJSON: c0bd75b5969785b3d9ae41d5709fe75bc5de4002
+  TangemSdk: f3adf8d0c18bf7a76406462fa31c0efa9f2efa93
+
+PODFILE CHECKSUM: c3bf95e55c682fb33df4ea9627e21a434869279d
+
+COCOAPODS: 1.15.2
